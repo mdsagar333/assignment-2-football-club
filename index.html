@@ -30,7 +30,10 @@
             <h1 class="hero-container__text__title">
               Conmebol <br />Copa America 2021
             </h1>
-            <a href="https://www.youtube.com/" class="btn btn-stream"
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="btn btn-stream"
               >watch live <i class="fas fa-long-arrow-alt-right"></i
             ></a>
           </section>
@@ -232,20 +235,28 @@
             the oldest still-running international football competition, as well
             as the third most watched in the world.
           </p>
-          <a href="https://www.youtube.com/" class="btn btn-stream"
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="btn btn-stream"
             >watch now</a
           >
         </article>
         <!-- Highlight section image -->
         <section class="highlight-container__img-container">
-          <img src="./images/match.png" alt="Two player chasing the ball" />
+          <img
+            src="./images/match.png"
+            alt="Two player chasing the ball"
+            class="highlight_img"
+          />
         </section>
       </section>
       <!--End of highligh section -->
 
       <!-- Fixtures section -->
       <section class="fixtures-container global-width">
-        <h1 class="fixtures-container__title">Our Fixtures</h1>
+        <h1 class="section_title">Our Fixtures</h1>
+        <div class="section_title-underline"></div>
         <section class="global--flex fixtures--months-container">
           <!-- Current month fixture -->
           <article class="fixtures--months__month">
@@ -253,25 +264,28 @@
             <section class="match-detail">
               <h4 class="month__date">Wednesday 21st July</h4>
               <p class="month__match-type">Friendly Match</p>
-              <p>
+              <p class="team-name">
                 <strong>Jamalpur FC</strong
                 ><span class="match--time">18:00</span>
+                <strong>Barcelona</strong>
               </p>
             </section>
             <section class="match-detail">
               <h4 class="month__date">Satureday 24th July</h4>
               <p class="month__match-type">Friendly Match</p>
-              <p>
+              <p class="team-name">
                 <strong>Jamalpur FC</strong
                 ><span class="match--time">20:00</span>
+                <strong>Manchester United</strong>
               </p>
             </section>
             <section class="match-detail">
               <h4 class="month__date">Friday 30th July</h4>
               <p class="month__match-type">Friendly Match</p>
-              <p>
+              <p class="team-name">
                 <strong>Jamalpur FC</strong
                 ><span class="match--time">14:00</span>
+                <strong>Real Madrid</strong>
               </p>
             </section>
           </article>
@@ -280,55 +294,80 @@
       <!-- End of fixtures section -->
 
       <!-- Online shop section -->
-      <section class="shop-container global-width gloabl--grid">
+      <section class="shop-container global-width">
+        <h1 class="section_title">Our Online Shop</h1>
+        <div class="section_title-underline"></div>
         <!-- single product -->
-        <article class="shop-container__product">
-          <img
-            src="/images/product/product-1.jpg"
-            alt="Jerseay"
-            class="product__img"
-          />
-          <h1 class="product__tittle">SHOP: 100 Years Home Kit On Sale Now</h1>
-          <a href="https://evhobon.com" class="btn btn-shop">find out more</a>
-        </article>
-        <!-- single product -->
-        <article class="shop-container__product">
-          <img
-            src="/images/product/product-2.jpg"
-            alt="Jerseay 2"
-            class="product__img"
-          />
-          <h1 class="product__tittle">CLARETS STORE: Away Kit On Sale Now</h1>
-          <a href="https://evhobon.com" class="btn btn-shop">find out more</a>
-        </article>
-        <!-- single product -->
-        <article class="shop-container__product">
-          <img
-            src="/images/product/product-3.jpg"
-            alt="Jerseay 3"
-            class="product__img"
-          />
-          <h1 class="product__tittle">
-            CLARETS STORE: 20/21 Training Wear On Sale Now
-          </h1>
-          <a href="https://evhobon.com" class="btn btn-shop">find out more</a>
-        </article>
+        <section class="shop-container__content">
+          <article class="shop-container__product">
+            <img
+              src="/images/product/product-1.jpg"
+              alt="Jerseay"
+              class="product__img"
+            />
+            <h1 class="product__tittle">
+              SHOP: 100 Years Home Kit On Sale Now
+            </h1>
+            <a
+              href="https://www.evhubon.com/"
+              target="_blank"
+              class="btn btn-shop"
+              >find out more</a
+            >
+          </article>
+          <!-- single product -->
+          <article class="shop-container__product">
+            <img
+              src="/images/product/product-2.jpg"
+              alt="Jerseay 2"
+              class="product__img"
+            />
+            <h1 class="product__tittle">CLARETS STORE: Away Kit On Sale Now</h1>
+            <a
+              href="https://www.evhubon.com/"
+              target="_blank"
+              class="btn btn-shop"
+              >find out more</a
+            >
+          </article>
+          <!-- single product -->
+          <article class="shop-container__product">
+            <img
+              src="/images/product/product-3.jpg"
+              alt="Jerseay 3"
+              class="product__img"
+            />
+            <h1 class="product__tittle">
+              CLARETS STORE: 20/21 Training Wear On Sale Now
+            </h1>
+            <a
+              href="https://www.evhubon.com/"
+              target="_blank"
+              class="btn btn-shop"
+              >find out more</a
+            >
+          </article>
+        </section>
       </section>
       <!--End of online shop section -->
     </main>
 
     <!-- Footer section -->
     <footer class="footer-container">
-      <img src="./images/Logo.png" alt="Football | Site logo" />
+      <img
+        src="./images/Logo.png"
+        alt="Football | Site logo"
+        class="footer-logo"
+      />
       <section class="footer-container__social-links">
         <a href="https://www.instagram.com/" class="social-links__link"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a href="https://dribbble.com/" class="social-links__links">
+        <a href="https://dribbble.com/" class="social-links__link">
           <i class="fab fa-dribbble"></i> </a
-        ><a href="https://twitter.com/" class="social-links__links"
+        ><a href="https://twitter.com/" class="social-links__link"
           ><i class="fab fa-twitter"></i></a
-        ><a href="https://www.youtube.com/" class="social-links__links"
+        ><a href="https://www.youtube.com/" class="social-links__link"
           ><i class="fab fa-youtube"></i
         ></a>
       </section>
