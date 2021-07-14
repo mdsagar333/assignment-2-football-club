@@ -300,6 +300,11 @@ Footer section styles
   color: #969bab;
   margin: 0 7px;
   font-size: 32px;
+  transition: all 0.4s;
+}
+
+.social-links__link:hover {
+  color: #222;
 }
 
 .footer-container p {
