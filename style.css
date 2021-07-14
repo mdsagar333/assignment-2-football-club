@@ -311,7 +311,7 @@ Footer section styles
 Media queary
 **************************
 */
-
+/* Responsive code for device less than 576px */
 @media only screen and (max-width: 576px) {
   /* global styles */
   .global-width {
@@ -370,5 +370,28 @@ Media queary
   /* Shop container styles */
   .shop-container__content {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Responsive code for device less than 576px */
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  /* global styles */
+  .global-width {
+    padding: 0 15px;
+  }
+
+  /* players container styles */
+  .players-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 70px;
+  }
+
+  /* shop container */
+  .shop-container {
+    margin-bottom: 70px;
+  }
+  .shop-container__content {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
