@@ -376,16 +376,17 @@ Media queary
   .shop-container__content {
     grid-template-columns: 1fr;
   }
+  /* footer section styles */
+  .footer-logo {
+    width: 270px;
+  }
 }
 
 /* Responsive code for device less than 576px */
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-  /* global styles */
-  .global-width {
-    padding: 0 15px;
-  }
   /* hero section styles */
+
   .hero-container__text__title {
     font-size: 40px;
     line-height: 50px;
